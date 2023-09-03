@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Praveen-Paliwal\desktop\py4e\book\projects\dv\newenv"
+VIRTUAL_ENV="C:\Users\Praveen-Paliwal\Desktop\py4e\Book\Projects\DV\Data_visualization_matplotlib\newenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

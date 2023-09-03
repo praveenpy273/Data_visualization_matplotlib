@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Praveen-Paliwal\desktop\py4e\book\projects\dv\newenv
+set VIRTUAL_ENV=C:\Users\Praveen-Paliwal\Desktop\py4e\Book\Projects\DV\Data_visualization_matplotlib\newenv
 
 if not defined PROMPT set PROMPT=$P$G
 
