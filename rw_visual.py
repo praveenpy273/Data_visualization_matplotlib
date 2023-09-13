@@ -3,7 +3,7 @@ from random_walk import RandomWalk
 
 # Make a random walk
 
-rw = RandomWalk()
+rw = RandomWalk(50_000)
 rw.fill_walk()
 
 # Plot the points in the walk.
@@ -15,7 +15,7 @@ point_numbers = range(rw.num_points)
 
 # we will assign the list to variable c and to remove the outline,
 # we will pass none to edge colors so that ponts are cleare.
-ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolors='none', s=15)
+ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolors='none', s=1)
 
 # resizing first and last points.
 ax.scatter(rw.x_values[0], rw.y_values[0], c ='green', edgecolors='none', s=100)
